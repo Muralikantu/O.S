@@ -21,7 +21,7 @@ int main() {
             }
         }
 
-        if (!page_found) {
+         if (!page_found) {
             frames[num_frames % MAX_FRAMES] = page;
             num_frames++;
             page_faults++;
