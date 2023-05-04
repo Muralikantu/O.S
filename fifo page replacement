@@ -38,7 +38,7 @@ int main() {
                 printf("|");
             }
         }
-        printf("]\n");
+         printf("]\n");
     }
 
     printf("Total page faults: %d\n", page_faults);
