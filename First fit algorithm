@@ -19,7 +19,7 @@ int main() {
             if (processes[i] <= partitions[j]) {
                 printf("Process %d (size %d KB) allocated to partition %d (size %d KB)\n",
                     i + 1, processes[i], j + 1, partitions[j]);
-                partitions[j] -= processes[i];
+                 partitions[j] -= processes[i];
                 break;
             }
         }
